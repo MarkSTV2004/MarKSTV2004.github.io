@@ -1,0 +1,67 @@
+body{
+    background-image: url("fotos/fondo paginas folklore.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    text-align: center;
+    text-decoration-line: underline;
+}
+ol{
+    text-align: center;
+    justify-content: center;
+    background-color : antiquewhite ;
+    font-size: 25px;
+}
+
+.Menu-Nav{
+    list-style: none;
+    padding: 0;
+    background-color: grey;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.Menu-Nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.Menu-Nav li {
+    display: inline-block;
+    text-align: center;
+}
+.Menu-Nav li a:hover{
+    background-color: orange;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    border:solid 2px;
+}
+span{
+    font-size: 25px;
+}
+.tablaFiguras{
+    border: solid;
+    margin: auto;
+}
+.imagenPrincipal{
+    display: flex;
+}
+.imagenPrincipal p{
+    font-size: 45px;
+}
+p{
+    font-size: 25px;
+
+}

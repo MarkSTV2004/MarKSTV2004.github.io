@@ -67,3 +67,9 @@ p{
 .tablaArtistas {
     border: solid;
 }
+.festivalNacionalDeLaChacarera{
+    display: flex;
+}
+.festivalNacionalDeLaChacarera p{
+    font-size: 35px;
+}

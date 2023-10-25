@@ -63,5 +63,7 @@ span{
 }
 p{
     font-size: 25px;
-
+}
+.tablaArtistas {
+    border: solid;
 }

@@ -1,5 +1,5 @@
 body{
-    background-image: url("fotos/fondo paginas folklore.jpg") ;
+    background-image: url("fotos/fondo pagina web1.png");
     background-size: cover;
     background-position: center;
 }
@@ -44,6 +44,8 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
+    height: 300px;
 }
 hr{
     border:solid 2px;
@@ -73,3 +75,4 @@ p{
 .festivalNacionalDeLaChacarera p{
     font-size: 35px;
 }
+

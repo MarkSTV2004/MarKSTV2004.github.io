@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../Style.css">
+    <script type="text/javaScript" src="../JS.javaScript"></script>
     <title>Cantantes - Comentarios</title>
 </head>
 <body>
@@ -13,22 +14,25 @@
                 <li><a href="../index.html">INICIO</a></li>
                 <li><a href="../Pagina2/Pagina2.html">DANZAS</a></li>
                 <li><a href="../Pagina3/Pagina3.html">CANTANTES</a></li>
-                <li><a href="../Pagina3/Pagina3.html#aportes">APORTES</a></li>
+                <li><a href="../Pagina3/Pagina3.html#reseñas">RESEÑAS</a></li>
             </ul>
         </div>
     </header>
-    <h2>Cantantes:</h2>
-    <p>
-        A continuacion, presentaremos algunos cantantes conocidos,cantas conocidos de antaño,
-        algunos cantantes y grupos conocidos de la actualidad y redireccionaremos 
+    <div>
+        <h2>Cantantes:</h2>
+        <p>
+            A continuacion, presentaremos algunos cantantes conocidos,cantas conocidos de antaño,
+            algunos cantantes y grupos conocidos de la actualidad y redireccionaremos 
         hacia las biografias pertenecientes de los mencionados. 
-    </p>
-    <table class="tablaArtistas">
-        <tr>
-            <td><a href="https://www.cmtv.com.ar/biografia/show.php?bnid=2520"> campedrinos</a></td>
-            <td><a href="https://es.wikipedia.org/wiki/Chaque%C3%B1o_Palavecino">chaqueño palovecino</a></td>
-        </tr>
-    </table>
+        </p>
+        <table class="tablaArtistas">
+            <tr>
+                <td><a href="https://www.cmtv.com.ar/biografia/show.php?bnid=2520"> campedrinos</a></td>
+                <td><a href="https://es.wikipedia.org/wiki/Chaque%C3%B1o_Palavecino">chaqueño palovecino</a></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
     <div>
         <h2>Festivales:</h2>
         <h3>Festival Nacional de la Chacarera:</h3>
@@ -42,6 +46,7 @@
                 </p>
         </div>
     </div>
+    <hr>
     <div>
         <h3>Festival Nacional del Malambo:</h3>
         <div class="FestivalNacionalDelMalambo:">
@@ -53,6 +58,7 @@
             </p>
         </div>
     </div>
+    <hr>
     <div>
         <h3>Festival Nacional de Doma y Folklore:</h3>
         <div>
@@ -64,6 +70,7 @@
             </p>
         </div>
     </div>
+    <hr>
     <div>
         <h3>Fiesta Nacional del Poncho:</h3>
         <div>
@@ -77,6 +84,7 @@
             </p>
         </div>
     </div>
+    <hr>
     <div>
         <h3>Fiesta Nacional del Estudiante:</h3>
         <div>
@@ -97,6 +105,7 @@
             </p>
         </div>
     </div>
+    <hr>
     <div>
         <h3>Fiesta Nacional del Cordero:</h3>
         <div>
@@ -113,6 +122,7 @@
             </p>
         </div>
     </div>
+    <hr>
     <div>
         <h3>Fiesta Nacional del Sol:</h3>
         <div>
@@ -130,7 +140,8 @@
             </p>
         </div>
     </div>
-    <div id="aportes">
+    <hr>
+    <div id="reseñas">
         <h2>Opiniones:</h2>
         <p>
             Su opinion si nos importa, si desea aportar ya sea con un comentario positivo, un consejo, 
@@ -138,12 +149,23 @@
             profunda, en cuanto los diversos temas mencionados a lo largo de la pagina, le animamos 
             a que nos deje su comentario.
         </p>
-        <form action="" onsubmit=" return validar(event)" id="formulario">
+        <form action="" onsubmit="return validar(e)" id="formulario">
             <label for="usuario">Ingrese su usuario:</label>
-            <input type="text">
+            <br>
+            <input type="text" id="usuario">
+            <br>
+            <label for="email">Ingrese su Email:</label>
+            <br>
+            <input type="email" name="correo" id="correo">
+            <br>
             <label for="comentario">Comente aqui:</label>
-            
+            <br>
+            <textarea name="comentario" id="comentario" cols="100" rows="5"></textarea> 
+            <br>
+            <button type="submit" id="btnEnviar">Enviar</button>     
         </form>
+        <ul id="listaErrores"></ul>
+        <div id="reseña"></div>
     </div>
 </body>
 </html>

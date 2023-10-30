@@ -3,6 +3,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
 h2{
     text-align: center;
     text-decoration-line: underline;
@@ -13,7 +17,24 @@ ol{
     background-color : antiquewhite ;
     font-size: 25px;
 }
-
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+}
+hr{
+    border:solid 2px;
+}
+span{
+    font-size: 25px;
+}
 .Menu-Nav{
     list-style: none;
     padding: 0;
@@ -34,24 +55,6 @@ ol{
 }
 .Menu-Nav li a:hover{
     background-color: orange;
-}
-iframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: 300px;
-}
-hr{
-    border:solid 2px;
-}
-span{
-    font-size: 25px;
 }
 .tablaFiguras{
     border: solid;
@@ -75,4 +78,13 @@ p{
 .festivalNacionalDeLaChacarera p{
     font-size: 35px;
 }
-
+.introduccion {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.error{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}

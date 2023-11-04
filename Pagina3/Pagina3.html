@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../Style.css">
-    <script type="text/javaScript" src="../JS.javaScript"></script>
-    <title>Cantantes - Comentarios</title>
+    <script type="text/javaScript" src="../Formulario.javaScript"></script>
+    <title>Cantantes - reseñas</title>
 </head>
 <body>
     <header>
@@ -141,7 +141,7 @@
         </div>
     </div>
     <hr>
-    <div id="reseñas">
+    <div id="zonaResñas">
         <h2>Opiniones:</h2>
         <p>
             Su opinion si nos importa, si desea aportar ya sea con un comentario positivo, un consejo, 
@@ -149,7 +149,7 @@
             profunda, en cuanto los diversos temas mencionados a lo largo de la pagina, le animamos 
             a que nos deje su comentario.
         </p>
-        <form action="" onsubmit="return validar(e)" id="formulario">
+        <form action=""  name="datos" onsubmit="validar(event)">
             <label for="usuario">Ingrese su usuario:</label>
             <br>
             <input type="text" id="usuario">
@@ -162,10 +162,10 @@
             <br>
             <textarea name="comentario" id="comentario" cols="100" rows="5"></textarea> 
             <br>
-            <button type="submit" id="btnEnviar">Enviar</button>     
+            <button type="submit " id="btnEnviar">Enviar</button>    
         </form>
         <ul id="listaErrores"></ul>
-        <div id="reseña"></div>
+        <div id="reseñas"></div>
     </div>
 </body>
 </html>

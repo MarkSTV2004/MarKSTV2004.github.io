@@ -82,9 +82,5 @@ p{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .error{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: red;
-    padding-top: 20px;
+    border: 2px solid red;
 }
